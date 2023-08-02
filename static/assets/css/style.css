@@ -71,6 +71,8 @@ Version: 1.0.0
 ==================================*/
 /*------------------- 1.1. Variable-------------------*/
 :root {
+  --viettel-color: #ea0a2a;
+  --icon-color: #BB0036;
   --theme-color: #07ccec;
   --theme-color2: #2cb624;
   --theme-color3: #0033a0;
@@ -1407,7 +1409,7 @@ textarea.form-control.is-invalid {
   height: 45px;
   line-height: 45px;
   background-color: var(--white-color);
-  color: var(--title-color);
+  color: var(--icon-color);
   text-align: center;
   border-radius: 50%;
   transition: all ease 0.4s;
@@ -1422,12 +1424,12 @@ textarea.form-control.is-invalid {
   transition: all ease 0.4s;
 }
 .icon-btn:hover i {
-  background-color: var(--theme-color);
+  background-color: var(--icon-color);
   box-shadow: none;
   color: var(--white-color);
 }
 .icon-btn:hover .badge {
-  background-color: var(--title-color);
+  background-color: var(--icon-color);
   color: var(--white-color);
 }
 .icon-btn.style2 i {
@@ -1450,12 +1452,13 @@ textarea.form-control.is-invalid {
   background-color: var(--white-color);
 }
 .icon-btn.style3 i {
-  background-color: rgba(7, 204, 236, 0.2);
-  color: var(--title-color);
+  /*background-color: rgba(7, 204, 236, 0.2);*/
+  background-color: var(--white-color);
+  color: var(--black-color);
   box-shadow: none;
 }
 .icon-btn.style3.active i, .icon-btn.style3:hover i {
-  background-color: var(--title-color);
+  background-color: var(--viettel-color);
   color: var(--white-color);
 }
 .icon-btn.style4 i {
@@ -2013,7 +2016,7 @@ textarea.form-control.is-invalid {
   width: 60px;
   height: 60px;
   line-height: 60px;
-  background-color: var(--theme-color);
+  background-color: var(--viettel-color);
   color: var(--white-color);
   font-size: 22px;
   border-radius: 50%;
@@ -2028,7 +2031,7 @@ textarea.form-control.is-invalid {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--theme-color);
+  background-color: var(--viettel-color);
   border-radius: inherit;
   z-index: -1;
   animation: ripple infinite 3s ease-in-out;
@@ -2264,7 +2267,7 @@ textarea.form-control.is-invalid {
 }
 
 .bg-title {
-  background-color: var(--title-color) !important;
+  background-color: var(--viettel-color) !important;
 }
 
 .bg-light2 {
@@ -3414,7 +3417,7 @@ textarea.form-control.is-invalid {
   position: relative;
   font-family: var(--body-font);
   font-weight: 700;
-  color: var(--title-color);
+  color: var(--title-color2);
   font-size: 18px;
   /* Large devices */
 }
@@ -3424,7 +3427,7 @@ textarea.form-control.is-invalid {
   }
 }
 .main-menu a:hover {
-  color: var(--theme-color);
+  color: var(--viettel-color);
 }
 .main-menu > ul > li {
   margin: 0 15px;
@@ -3867,7 +3870,7 @@ textarea.form-control.is-invalid {
   position: absolute;
   width: 2px;
   height: 30px;
-  background-color: var(--theme-color);
+  background-color: var(--icon-color);
   left: 0;
   top: 50%;
   margin-top: -15px;
