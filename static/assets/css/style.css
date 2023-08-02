@@ -10310,7 +10310,8 @@ blockquote cite:before {
   position: relative;
   margin: 0 auto 10px auto;
   box-shadow: 0.5px 0.866px 27px 0px rgba(35, 31, 32, 0.05);
-  outline: 1px solid var(--theme-color);
+  /*outline: 1px solid var(--theme-color);*/
+  outline: 1px solid var(--viettel-color);
   outline-offset: -4px;
   transition: all ease 0.4s;
 }
@@ -10324,12 +10325,12 @@ blockquote cite:before {
 }
 .facility-style1 .facility-text {
   font-weight: 500;
-  color: var(--title-color);
+  color: var(--viettel-color);
   margin: 0;
 }
 .facility-style1:hover .facility-icon {
   outline-color: var(--white-color);
-  background-color: var(--theme-color);
+  background-color: var(--viettel-color);
 }
 .facility-style1:hover .facility-icon img {
   filter: brightness(0) invert(1);
